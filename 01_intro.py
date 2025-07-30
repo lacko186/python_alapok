@@ -1,0 +1,1 @@
+print('A nevem Lacko felfrissítem a programozási ismereteim pythonból\n kezdjünk bele!')
