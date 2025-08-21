@@ -1,5 +1,6 @@
 print('Automata')
 
+
 def osszes_csoki(lista):
     for csoki in lista:
         print(f'{csoki["id"]} - {csoki["nev"]} - {csoki["ar"]} Ft')
