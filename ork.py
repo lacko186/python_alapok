@@ -35,3 +35,6 @@ def orkkepessege(orklista):
      for orkok in orklista:
           if orkok.id == randomharcos:
                print(f'Középfölde egy rusnya teremtésével van dolgod \n ork feladata: {orkok.feladat}\n képességek:\n Életerő: {orkok.élet}\n Ereje: {orkok.erő}\n Fegyverei/képességei: {orkok.fegyver}')
+
+        
+          
