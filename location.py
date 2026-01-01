@@ -1,9 +1,10 @@
 from geopy.geocoders import Nominatim
 from geopy.distance import geodesic
 
+varos = input('Add meg a város nevét: ')
 
 geolocator = Nominatim(user_agent="Helykereso")
-location = geolocator.geocode("Barcs, Hungary")
+location = geolocator.geocode(f"{varos}, Hungary")
 
 print(f'{location.address} \n')
 print(f'{(location.latitude, location.longitude)}\n')
