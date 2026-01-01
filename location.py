@@ -19,9 +19,9 @@ célpontneve = 'Kaposvár'
 
 
 
-distance = geodesic((kiindulópont[0], kiindulópont[1]), (célpont.latitude, célpont.longitude)).km
+különbség = geodesic((kiindulópont[0], kiindulópont[1]), (célpont.latitude, célpont.longitude)).km
 
-print(f' {kiinduloponneve} és {célpontneve} közötti távolság: {distance} km Légvonalban.')
+print(f' {kiinduloponneve} és {célpontneve} közötti távolság: {különbség} km Légvonalban.')
 
 
 
