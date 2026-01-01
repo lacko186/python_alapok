@@ -10,8 +10,6 @@ print(f'{(location.latitude, location.longitude)}\n')
 print(f'{location.raw}\n')
 
 
-
-
 kiindulópont = ['46.072046', '18.231495']
 kiinduloponneve = 'Pécs'
 célpont = geolocator.geocode("46.352821, 17.795034")
